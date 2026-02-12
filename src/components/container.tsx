@@ -20,7 +20,7 @@ export const Container = () => {
   return (
     <div
       ref={ref}
-      className="group hover:bg-[#c9184a] transition-all duration-400 bg-white p-[30px] rounded-[30px] absolute flex md:flex-row flex-col items-center  w-[35vw] h-[300px] relative z-30"
+      className="group hover:bg-[#c9184a] transition-all duration-400 bg-white p-[30px] rounded-[30px] absolute flex md:flex-row flex-col items-center  w-[500px] h-[300px] relative z-30"
     >
       {isArrowVisible && (
         <img
@@ -35,7 +35,7 @@ export const Container = () => {
         <span className="font-bold text-white">
           valentine? <br />
           <span className="text-[20px] text-white font-normal">
-            (resond in dm)
+            (respond in dm)
           </span>
         </span>
       </p>
