@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Добавляем кастомную анимацию в тему Tailwind */
+  --animate-infinite-scroll: scroll 20s linear infinite;
+
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
